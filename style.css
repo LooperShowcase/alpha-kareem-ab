@@ -1,0 +1,47 @@
+h1 {
+  font-size: 80px;
+}
+body {
+  background-color: rgb(238, 218, 136);
+}
+p {
+  font-size: 50;
+}
+#kr1 {
+  background-color: rgb(10, 122, 130);
+  font-family: "Crimson Text", serif;
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
